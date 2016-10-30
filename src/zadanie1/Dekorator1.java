@@ -5,6 +5,12 @@ import java.io.FileNotFoundException;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+/*
+Napisać program, który pozwoli obliczyć liczbę wierszy tekstu. 
+Przeglądane powinny być wszystkie znaki tekstu.
+Obliczanie liczby wierszy powinno odbywać się dopiero w momencie zakończenia przeglądania danego wiersza.
+*/
+
 public class Dekorator1 {
 
     public static void main(String[] args) {
