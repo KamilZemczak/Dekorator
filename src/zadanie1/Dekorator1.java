@@ -18,14 +18,14 @@ public class Dekorator1 {
             DataInputStream fstream = new DataInputStream(new FileInputStream("text.txt"));
            
             int character;
-            int numerOfRows = 1;
+            int numberOfRows = 1;
             while ((character = fstream.read()) != -1) {
 
             if ((char)character=='\n'){
-            numerOfRows++;
+            numberOfRows++;
             }
         }
-            System.out.println("Liczba wierszy w Twoim pliku: " +numerOfRows);
+            System.out.println("Liczba wierszy w Twoim pliku: " +numberOfRows);
             fstream.close();   
         } catch(FileNotFoundException e){
             System.out.println("Niestety, nie znaleziono żądanego pliku.");

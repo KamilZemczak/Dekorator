@@ -10,5 +10,5 @@ package zadanie3;
  * @author Kamil Zemczak
  */
 public interface UzytkownikDrogiDekorator extends UzytkownikDrogi {
-     public void modify(UzytkownikDrogi uzytkownikDrogi);
+     public void zmiana(UzytkownikDrogi uzytkownikDrogi);
 }
